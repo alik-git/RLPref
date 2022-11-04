@@ -1,3 +1,5 @@
 video
 wandb
 *.pyc
+*.mp4
+images

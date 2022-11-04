@@ -11,6 +11,18 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": true
+        },
+    
+        {
+            "name": "Run Exp",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/kuwajerw/repos/RLPref/stuff.py",
+            "console": "integratedTerminal",
+            // "justMyCode": true 
         }
     ]
+
+
+
 }

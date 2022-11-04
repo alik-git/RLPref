@@ -26,7 +26,7 @@ wandb.config = {
 }
 wandb.gym.monitor()
 
-for _ in range(1000):
+for _ in range(2000):
     action = env.action_space.sample()
     observation, reward, terminated, truncated, info = env.step(action)
 
@@ -40,3 +40,5 @@ for _ in range(1000):
     if terminated or truncated:
         observation, info = env.reset()
 env.close()
+
+# def ml_training_loop():
